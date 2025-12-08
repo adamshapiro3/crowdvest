@@ -13,6 +13,7 @@ import ProgressBar from "@/components/progress-bar";
 import FAQs from "@/components/faqs";
 import ContactWithDisclaimer from "@/components/contact";
 import CardFlip from "@/components/gallery/flip-card";
+import FrontierPlazaWebinar from "@/components/webinar-recording";
 
 const FrontierPlaza = () => {
   return (
@@ -25,6 +26,7 @@ const FrontierPlaza = () => {
 
       {/* Hero Section with Background Image */}
       <Hero />
+      <FrontierPlazaWebinar />
 
       {/* Stats Bar with Background */}
       <Stats />
